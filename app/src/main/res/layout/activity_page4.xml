@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baclgroundwordjumble1"
+    tools:context=".PAGE4">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="401dp"
+        android:layout_height="300dp"
+        android:columnCount="4"
+
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691">
+
+        <Button
+            android:id="@+id/P"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/P" />
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/C" />
+
+        <Button
+            android:id="@+id/L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/L" />
+
+        <Button
+            android:id="@+id/I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/I" />
+
+        <Button
+            android:id="@+id/E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/E" />
+
+        <Button
+            android:id="@+id/K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/K" />
+
+        <Button
+            android:id="@+id/N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/N" />
+
+        <Button
+            android:id="@+id/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/M" />
+
+        <Button
+            android:id="@+id/O"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/O" />
+
+        <Button
+            android:id="@+id/Q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/Q" />
+
+        <Button
+            android:id="@+id/H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/H" />
+
+        <Button
+            android:id="@+id/A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/A" />
+
+        <Button
+            android:id="@+id/F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/F" />
+
+        <Button
+            android:id="@+id/T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/T" />
+
+        <Button
+            android:id="@+id/R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/R" />
+
+        <Button
+            android:id="@+id/Z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/Z" />
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="398dp"
+        android:layout_height="102dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:fontFamily="cursive"
+        android:text="@string/clue3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:autofillHints="word"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:labelFor="@id/answer"
+        android:text="@string/a"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:autofillHints="word"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:autofillHints="word"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:autofillHints="word"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/d"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:autofillHints="word"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
